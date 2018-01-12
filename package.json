@@ -35,16 +35,16 @@
     "gulp": "gulp"
   },
   "dependencies": {
-    "@angular/common": "^4.1.0",
-    "@angular/compiler": "^4.1.0",
-    "@angular/core": "^4.1.0",
-    "@angular/http": "^4.1.0",
-    "@angular/platform-browser": "^4.1.0",
+    "@angular/common": "^5.0.0",
+    "@angular/compiler": "^5.0.0",
+    "@angular/core": "^5.0.0",
+    "@angular/http": "^5.0.0",
+    "@angular/platform-browser": "^5.0.0",
     "@types/adal": "^1.0.22",
     "adal-angular": "^1.0.14",
     "reflect-metadata": "^0.1.8",
-    "rxjs": "^5.0.3",
-    "zone.js": "^0.8.11"
+    "rxjs": "^5.5.2",
+    "zone.js": "^0.8.14"
   },
   "devDependencies": {
     "del": "^2.2.0",

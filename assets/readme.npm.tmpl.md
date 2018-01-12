@@ -32,10 +32,10 @@ You can install this package locally with npm.
 
 ```bash
 # To get the latest stable version and update package.json file:
-npm install ng2-adal --save
+npm install ngx-adal --save
 ```
 
-After installing the library, you need to include ng2-adal and adal in the SystemJS configurations.
+After installing the library, you need to include ngx-adal and adal in the SystemJS configurations.
 
 ```javascript
 /**
@@ -49,7 +49,7 @@ After installing the library, you need to include ng2-adal and adal in the Syste
     'angular2-in-memory-web-api': 'lib/angular2-in-memory-web-api',
     'rxjs': 'lib/rxjs',
     'angular2-cookie': 'lib/angular2-cookie',
-    'ng2-adal': 'lib/ng2-adal',
+    'ngx-adal': 'lib/ngx-adal',
     'adal': 'lib/adal-angular/lib'
   };
   // packages tells the System loader how to load when no filename and/or no extension
@@ -58,7 +58,7 @@ After installing the library, you need to include ng2-adal and adal in the Syste
     'rxjs': { defaultExtension: 'js' },
     'angular2-in-memory-web-api': { defaultExtension: 'js' },
     'angular2-cookie': { main: 'core.js', defaultExtension: 'js' },
-    'ng2-adal': { main: 'core.js', defaultExtension: 'js' },
+    'ngx-adal': { main: 'core.js', defaultExtension: 'js' },
     'adal': { main: 'adal.js', defaultExtension: 'js' }
   };
   var ngPackageNames = [
@@ -87,7 +87,7 @@ After installing the library, you need to include ng2-adal and adal in the Syste
 To enable building TypeScript, you need to add ADAL library definitions to typings/index.d.ts.
 
 ```typescript
-/// <reference path="../node_modules/ng2-adal/typings/adal/index.d.ts" />
+/// <reference path="../node_modules/ngx-adal/typings/adal/index.d.ts" />
 /// <reference path="globals/core-js/index.d.ts" />
 /// <reference path="globals/jasmine/index.d.ts" />
 ```

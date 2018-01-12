@@ -1,5 +1,5 @@
 {
-  "name": "ng2-adal",
+  "name": "ngx-adal",
   "version": "2.0.0",
   "description": "Use Azure AD Library - ADAL in Angular 4 & 2. For Angular 4, use latest version 1.x.x. For Angular 2 use 0.3.1 version.",
   "repository": {
@@ -13,7 +13,7 @@
     "azure",
     "ad",
     "angular2-adal",
-    "ng2-adal",
+    "ngx-adal",
     "adal-angular2",
     "adal-ng2",
     "ng4-adal",

@@ -1,4 +1,4 @@
-# ng2-adal
+# ngx-adal
 
 `master` branch of this repo is now Angular 4+ compatible. Thanks to @Cyberdada.
 For Angular2, I have created a separate `Angular 2` branch. NPM package starting from version 2.0 is for Angular 4. Packages 1.x are for Angular 2.
